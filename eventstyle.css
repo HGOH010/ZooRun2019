@@ -1,0 +1,51 @@
+﻿body { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Calibri'; font-size: 40px; font-color:#663300;
+  
+}
+
+div {
+  margin-left: 200px;
+  margin-right:200px;
+  text-align: justify;
+}
+
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: brown;
+  color: white;
+}
+table#t02 th {
+  background-color: Pink;
+}
+table#t03 th {
+  background-color: Powderblue;
+}
+table#t04 th {
+  background-color: Yellow;
+}
+table#t05 th {
+  background-color: Orange;
+}
+
+
